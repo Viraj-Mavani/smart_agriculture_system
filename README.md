@@ -8,7 +8,7 @@ An AI-powered agricultural diagnostic tool designed to detect and classify **10 
 
 ---
 
-## 🚀 Features
+## Features
 
 - **High Accuracy:** Achieved **96.3% test accuracy** on the PlantVillage dataset.
 - **Dual Architecture:** - **Custom CNN:** Optimized for efficiency and low resource consumption.
@@ -19,7 +19,7 @@ An AI-powered agricultural diagnostic tool designed to detect and classify **10 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core:** Python 3.8+
 - **Deep Learning:** TensorFlow, Keras
@@ -30,7 +30,7 @@ An AI-powered agricultural diagnostic tool designed to detect and classify **10 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The model is trained on the **PlantVillage Dataset**, specifically the Tomato Leaf subset.
 - **Total Images:** ~16,000
@@ -48,7 +48,7 @@ The model is trained on the **PlantVillage Dataset**, specifically the Tomato Le
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### 1. Custom CNN
 Designed from scratch with the following structure:
@@ -65,7 +65,7 @@ Designed from scratch with the following structure:
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric | Score |
 | :--- | :--- |
@@ -78,7 +78,7 @@ Designed from scratch with the following structure:
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 Ensure you have Python installed. It is recommended to use a virtual environment.
@@ -90,3 +90,25 @@ cd smart_agriculture_system
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+### Running the Notebook
+The core logic is contained within the Jupyter Notebook for interactive exploration.
+
+```bash
+jupyter notebook "Tomato Leaf Disease Detection main.ipynb"
+```
+
+---
+
+## Project Structure
+```
+.
+├── Tomato Leaf Disease Detection main.ipynb   # Main training & evaluation notebook
+├── Tomato Leaf Disease Detection Final Report.pdf # Detailed project report
+├── requirements.txt                           # Python dependencies
+├── README.md                                  # Project documentation
+└── data/                                      # Dataset directory (not included in repo)
+
+```
+

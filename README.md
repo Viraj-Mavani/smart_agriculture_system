@@ -96,7 +96,7 @@ pip install -r requirements.txt
 The core logic is contained within the Jupyter Notebook for interactive exploration.
 
 ```bash
-jupyter notebook "Tomato Leaf Disease Detection main.ipynb"
+jupyter notebook "main.ipynb"
 ```
 
 ---
